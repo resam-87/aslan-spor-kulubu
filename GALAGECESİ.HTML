@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Manisa Boks Gala Gecesi - Aslan Spor Kulübü</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    /* Genel Düzen */
+    body { background-color: #f9f9f9; }
+    #wrapper { display: flex; }
+    #main { flex: 1; padding: 2rem; }
+    .inner { max-width: 1200px; margin: 0 auto; }
+
+    /* Hero Bölümü */
+    .hero {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      overflow: hidden;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .hero-image { width: 1000px; max-height: 562px; object-fit: cover; }
+    .hero-text { padding: 1.5rem; color: #333; line-height: 1.6; }
+    .hero-text h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #333; }
+    .hero-text p { font-size: 1rem; }
+
+    /* Başlık Stilleri */
+    .section-title {
+      text-align: center;
+      margin: 2.5rem 0 1rem;
+      font-size: 1.75rem;
+      color: #6363FF;
+      position: relative;
+    }
+    .section-title::after {
+      content: '';
+      width: 60px;
+      height: 4px;
+      background: #6363FF;
+      display: block;
+      margin: 0.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    /* Medya Grid Kartlar */
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      padding: 0 1rem 2rem;
+    }
+    .media-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .media-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .media-item img,
+    .media-item video {
+      width: 100%;
+      display: block;
+    }
+
+    /* Sidebar Düzen */
+    #sidebar { width: 260px; background: #fff; border-left: 1px solid #e0e0e0; padding: 2rem 1rem; }
+    #menu ul li a { color: #333; padding: 0.5rem 0; display: block; transition: color 0.2s; }
+    #menu ul li a:hover { color: #6363FF; }
+    .contact li { margin-bottom: 0.75rem; }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <div id="main">
+      <div class="inner">
+        <!-- Hero Bölümü -->
+        <section class="hero">
+          <img class="hero-image" src="antgal foto/başlık.jpg" alt="Manisa Boks Gala Gecesi" />
+          <div class="hero-text">
+            <h1>Manisa Kurşunlu Han Boks Gala Gecesi</h1>
+            <p>Manisa’da tarihe geçen ilk Boks Gala Gecesi, 25 Ağustos 2023 akşamı tarihi Kurşunlu Han’da Aslan Spor Kulübü’nün öncülüğünde ve Şehzadeler Belediyesi’nin değerli katkılarıyla düzenlendi. Organizasyonun sorumluluğunu Aslan Spor Kulübü Başkanı ve boks antrenörü Yahya Aslan üstlendi. Amacımız, boks sporunu Manisa’da daha geniş kitlelere sevdirmek ve genç yeteneklere fırsat tanımaktı.
+
+Gala gecesi; Türkiye’nin Kahramanmaraş’tan İzmir’e, Erzurum’dan Sakarya’ya dek farklı illerden gelen 18 gelecek vaat eden sporcunun katıldığı, 63–91 kg aralığındaki 9 heyecan dolu karşılaşmaya sahne oldu. Ringde kıyasıya mücadele eden genç boksörler, izleyicilerden tam not alırken, açılışta Ege yöresi halk oyunları gösterileri ve saygı duruşunun ardından İstiklal Marşı coşkusu geceye ayrı bir renk kattı. Girişlerin ücretsiz olması da aileleri ve spor severleri etkinliğe büyük ilgi göstermeye teşvik etti.
+
+Geceye; Şehzadeler Belediye Başkanı Ömer Faruk Çelik, AK Parti Manisa Milletvekili Ahmet Mücahit Arınç ve çok sayıda yerel yönetici katıldı, sporculara destek verdi. Şehzadeler Belediyesi, Gençlik Hizmetleri ve Spor İl Müdürlüğü başta olmak üzere birçok kurumun sağladığı iş birliğiyle planlanan bu organizasyon, “Her yıl üzerine koyarak büyüteceğimiz bir spor ve kültür etkinliği” vizyonuyla yola çıktı. Manisa Boks Gala Gecesi, artık şehrimizin spor ve kültür turizmine önemli bir katkı sunacak, gençlere ilham verecek yıllık bir gelenek olma yolunda hızla ilerliyor.
+</p>
+          </div>
+        </section>
+
+        <!-- Küçük Medya Grid -->
+        <h2 class="section-title">Etkinlikten Kareler <!-- &amp; Videolar</h2> -->
+        <div class="media-grid">
+          <div class="media-item"><img src="antgal foto/zeybek.jpg" alt="Açılış Töreni" /></div>
+          <div class="media-item"><img src="antgal foto/ömerfaruk2.jpg" alt="Halk Oyunları Gösterisi" /></div>
+         <!-- <div class="media-item"><video controls><source src="videos/highlight1.mp4" type="video/mp4" /></video></div> -->
+          <div class="media-item"><img src="antgal foto/maççokiyi.jpg" alt="Müsabaka Anı" /></div>
+          <!-- div class="media-item"><video controls><source src="videos/highlight2.mp4" type="video/mp4" /></video></div> -->
+          <div class="media-item"><img src="antgal foto/ödül2.jpg" alt="Ödül Töreni" /></div>
+           <div class="media-item"><img src="antgal foto/hakem.jpg" alt="Ödül Töreni" /></div>
+            <div class="media-item"><img src="antgal foto/maç2.jpg" alt="Ödül Töreni" /></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <div id="sidebar">
+      <div class="inner">
+        <nav id="menu">
+          <header class="major"><h2>Menu</h2></header>
+          <ul>
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="generic.html">HAKKIMIZDA</a></li>
+            <li><a href="antrenmanlar.html">ANTRENMANLARIMIZ</a></li>
+            <li><a href="basarilarimiz.html">BAŞARILARIMIZ</a></li>
+            <li><a href="GALAGECESI.html">GALA GECESI</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfryVfqvdRyYI5t3JZfZknPepEj2Vi_TYZiDCI-o5LPXfTiVQ/viewform" target="_blank">ON KAYIT</a></li>
+          </ul>
+        </nav>
+        <section>
+          <header class="major"><h2>Iletisim</h2></header>
+          <ul class="contact">
+            <li class="icon brands fa-instagram"><a href="https://www.instagram.com/yahya_aslannn/">@yahya_aslannn</a></li>
+            <li class="icon solid fa-phone">0507 347 51 37</li>
+            <li class="icon solid fa-home">Dinçer, 2606. Sk. 7 A, 45020 Manisa Merkez/Manisa</li>
+          </ul>
+        </section>
+        <footer id="footer">
+          <p>&copy; 2025 Aslan Spor Kulübü. Tasarım: <a href="https://www.instagram.com/resam.87/">@resam.87</a></p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 800 });</script>
+</body>
+</html>
